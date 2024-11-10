@@ -22,6 +22,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "proxy": {
+        "/maps/api": "https://api-v2.distancematrix.ai"
+      }
     }
   }
 }
